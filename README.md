@@ -3,15 +3,15 @@ An application to retrieve and filter asset performance metrics from CoinGecko.
 
 **Note**: This code is configured to use the CoinGecko pro API (requiring a purchased key) for faster requests. However, the free API can also be used by removing the class override in `coingecko_pro_api.py`. If you have a pro API key, you must add it in the `CG_API_KEY` field in this file. See https://www.coingecko.com/en/api/documentation for more information.
 
+### Requirements
 ```
-requirements:
 - pandas
 - numpy
 - requests
 - pycoingecko (https://github.com/man-c/pycoingecko)
 ```
 
-### Using this codebase
+### Usage
 The main entry point is `get_coins.py`, which is ran from the terminal to get asset performance metrics for a given exchange over a selected period. for example,
 ```
 > python get_coins.py -exchanges=uniswap -days=30 -currency=usd
