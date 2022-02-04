@@ -1,7 +1,7 @@
 # coinscreener
 An application to retrieve and filter asset performance metrics from CoinGecko.
 
-**Note**: This code is configured to use the CoinGecko pro API (requiring a purchased key) for faster requests. However, the free API can also be used by removing the class override in `coingecko_pro_api.py`. If you have a pro API key, you must add it in the `CG_API_KEY` field in this file.
+**Note**: This code is configured to use the CoinGecko pro API (requiring a purchased key) for faster requests. However, the free API can also be used by removing the class override in `coingecko_pro_api.py`. If you have a pro API key, you must add it in the `CG_API_KEY` field in this file. See https://www.coingecko.com/en/api/documentation for more information.
 
 ```
 requirements:
